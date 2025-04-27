@@ -1,0 +1,10 @@
+[
+    {
+      "ParameterKey": "keyname",
+      "ParameterValue": "VM1"
+    },
+    {
+      "ParameterKey": "ec2name",
+      "ParameterValue": "mylesec2"
+    }
+  ]
