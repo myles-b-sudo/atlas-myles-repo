@@ -1,0 +1,20 @@
+AWSTemplateFormatVersion: 2010-09-09
+Description: hw assignment. create ec2 t2.micro
+
+Parameters:
+  keyname:
+    Description: name of your key
+    Type: string
+    Default: your-key-name
+
+Resources:
+  ec2instance:
+    Type: AWS::EC2::Instance
+    Properties:
+      InstanceType: t2.micro
+      KeyName: !Ref keyname
+      AvailabilityZone: us-east-1c
+      ImageId: ami-0e449927258d45bc4 
+      Tags: 
+        - Key: Name
+        - Value: AtlasEC2
