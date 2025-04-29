@@ -9,6 +9,7 @@ Resources:
       KeyName: VM1
       AvailabilityZone: us-east-1a
       ImageId: ami-0e449927258d45bc4 
+      
       Tags: 
         - Key: Name
-        - Value: CFN-EC2
+          Value: CFN-EC2
