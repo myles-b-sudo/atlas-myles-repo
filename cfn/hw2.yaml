@@ -12,7 +12,7 @@ Resources:
       
       Tags: 
         - Key: Name
-          Value: !Ref
+          Value: !Ref ec2name
 
 Parameters:
   itype:
