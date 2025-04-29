@@ -1,4 +1,3 @@
 # atlas-myles-repo
-This is mymfirst public Repo
-updating line on remote repository
-updating line on local repository
+This is my first public Repo
+:)
