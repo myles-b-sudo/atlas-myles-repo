@@ -4,7 +4,7 @@ Description: hw assignment. create ec2 t2.micro
 Parameters:
   keyname:
     Description: name of your key
-    Type: string
+    Type: String
     Default: your-key-name
 
 Resources:
